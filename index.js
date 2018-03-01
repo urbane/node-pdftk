@@ -780,7 +780,7 @@ class PdfTk {
      * @see {@link https://www.pdflabs.com/docs/pdftk-man-page/#dest-input-pw}
      */
     inputPw(password) {
-        this.postArgs.push(
+        this.args.push(
             'input_pw',
             password
         );
